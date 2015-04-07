@@ -111,3 +111,8 @@ RSpec.configure do |config|
 
 end
 end
+
+require 'capybara/rspec'
+require 'bookmark_manager'
+
+Capybara.app = BookmarkManager
