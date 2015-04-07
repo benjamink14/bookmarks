@@ -91,7 +91,6 @@ RSpec.configure do |config|
 =end
   ENV['RACK_ENV'] = 'test'
 
-  require 'server'
   require 'database_cleaner'
 
   RSpec.configure do |config|
