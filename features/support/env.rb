@@ -8,7 +8,7 @@ require 'capybara'
 require 'capybara/cucumber'
 require 'rspec'
 
-Capybara.app = Bookmark_Manager
+Capybara.app = BookmarkManager
 
 class BookmarkManagerWorld
 

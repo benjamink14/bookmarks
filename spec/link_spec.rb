@@ -1,6 +1,7 @@
 require 'spec_helper'
 require 'link'
 require 'data_mapper'
+require 'tag'
 
 describe Link do
   context 'Demonstration of how datamapper work' do
