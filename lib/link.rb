@@ -4,6 +4,8 @@ class Link
 
   include DataMapper::Resource
 
+  has n, :tags, through: Resource
+
   property :id, Serial # Serial means auto-incremented for every record
   property :title, String
   property :url, String
