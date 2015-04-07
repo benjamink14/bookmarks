@@ -1,3 +1,4 @@
+require 'data_mapper'
 # This class corresponds to a table in the database
 class Link
 
